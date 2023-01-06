@@ -2,4 +2,4 @@
 
 #### Игра "Расхититель склепа" перенесёт вас в эпоху средневековья, где вам нужно найти выход из мрачного и загадочного подземелья.
 
-<img src="https://github.com/Romandre/CryptRaider_UE5/Images/CryptoRaiderMain.png" width="800">
+<img src="Images/CryptoRaiderMain.png" width="800">
