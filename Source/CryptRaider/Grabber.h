@@ -30,7 +30,7 @@ public:
 	void Grab();
 
 	UFUNCTION(BlueprintCallable)
-	void Release();
+	void Release();	
 
 
 private:
@@ -45,6 +45,8 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float HoldDistance = 200;
+
+	bool GetGrabbableInReach(FHitResult& OutHitResult) const;
 
 	UPhysicsHandleComponent* GetPhysicsHandle() const;
 };
